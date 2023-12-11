@@ -6,7 +6,7 @@ function App() {
   return (
     <Grid
       templateAreas={{
-        base: `"nav" "aside"`,
+        base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`, // wider than 1024px
       }}
     >
